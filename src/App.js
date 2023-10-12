@@ -20,6 +20,7 @@ import FramerMotion1  from './FramerMotion1';
 // import { CardShadow } from './CardShadow';
 // import { Slowly  } from './Slowly';
 // import { AnimatedList } from './AnimatedList';
+// import RotateButton from './RotateButton';
 
 function App() {
   // AVEC FRAMER MOTION
@@ -59,6 +60,8 @@ function App() {
        
         {/* <button onClick={addItem}>Add Item</button>
         <AnimatedList items={items} removeItem={removeItem} /> */}
+
+        {/* <RotateButton />  */}
 
       </header>
     </div>
