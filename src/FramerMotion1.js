@@ -9,7 +9,7 @@ const FramerMotion1 = () => {
       exit={{ opacity: 0, x: 800 }}
       transition={{ duration: 1.5 }}
     >
-      Hello, I'm animated!
+      Je suis un titre !
     </motion.div>
   );
 };

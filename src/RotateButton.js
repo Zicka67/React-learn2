@@ -4,6 +4,12 @@ import { motion } from 'framer-motion';
 const RotateButton = () => {
   const [rotationState, setRotationState] = useState('notRotated');
 
+  const styles = {
+    fontSize: '1.8rem',
+    fontWeight: 400,
+    color: 'white',
+  };
+
   const variants = {
     rotated: { rotateX: 360 },
     notRotated: { rotateX: 0 }
@@ -21,6 +27,7 @@ const RotateButton = () => {
   return (
     <motion.button className="rotate-button"
       initial="notRotated"
+      style={styles}
       animate={rotationState}
       variants={variants}
       transition={transition}

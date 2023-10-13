@@ -13,14 +13,14 @@ import React, { useState } from 'react';
 // import WaterEffect from './WaterEffect';
 
 // AVEC FRAMER MOTION
-import FramerMotion1  from './FramerMotion1';
+// import FramerMotion1  from './FramerMotion1';
 // import FramerMotion2  from './FramerMotion2';
 // import { ButtonBounce } from './ButtonBounce';
 // import { Loader } from './Loader';
 // import { CardShadow } from './CardShadow';
 // import { Slowly  } from './Slowly';
 // import { AnimatedList } from './AnimatedList';
-// import RotateButton from './RotateButton';
+import RotateButton from './RotateButton';
 
 function App() {
   // AVEC FRAMER MOTION
@@ -49,7 +49,7 @@ function App() {
         {/* <WaterEffect />  */}
 
         {/* AVEC FRAMER MOTION */}
-        <FramerMotion1 />
+        {/* <FramerMotion1 /> */}
         {/* <FramerMotion2 /> */}
         {/* <ButtonBounce /> */}
         {/* <Loader /> */}
@@ -61,7 +61,7 @@ function App() {
         {/* <button onClick={addItem}>Add Item</button>
         <AnimatedList items={items} removeItem={removeItem} /> */}
 
-        {/* <RotateButton />  */}
+        <RotateButton /> 
 
       </header>
     </div>
